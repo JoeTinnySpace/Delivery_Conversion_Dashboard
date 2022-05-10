@@ -100,7 +100,7 @@ if uploaded_file:
     styled_df = table_styler(ordered_df)
 
     st.table(styled_df)
-    export(styled_df, 'conversion.png')
+    # export(styled_df, 'conversion.png')
 
     # img = open('conversion.png', 'rb')
     # st.download_button(label="Download Report", data=img, file_name="conversion.png")
