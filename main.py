@@ -24,7 +24,7 @@ def table_styler(dataframe):
             'props' : [('background', 'white')]
         }
         ]
-    ).hide(axis='index')
+    )
 
 names = {
     "Safir S":"Safir S",
